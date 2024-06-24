@@ -1,19 +1,24 @@
+
 import React from 'react'
 import '../styles/SingleProject.scss'
 
-function SingleProject({title,img,liveLink,gitLink}) {
+function SingleProject({title,img,liveLink,desc,technologies}) {
   return (
     <div className='single-project'>
-        <div className='img-con'>
-            <img src={img} alt="image" />
-
-        </div>
+        <div className="single-project-content">
+          <a href={liveLink} className='img-section'>
+          <img src={img} alt="image" />
+          </a>
+          <section className='desc-section'>
+          <div className='desc-top'>
             <h2>{title}</h2>
-
-            <div className='link-con'>
-            <a href={gitLink} target='_blank'>Github</a>
-            <a href={liveLink} target='_blank'>Live Demo</a>
-            </div>
+            <p>{desc}</p>
+          </div>
+          <div className='desc-bottom'>
+           { technologies.map((elem,index)=><span key={index}> {elem} </span>)}
+          </div>
+          </section>
+        </div>
         </div>
   )
 }

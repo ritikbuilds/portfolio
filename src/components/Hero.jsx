@@ -43,7 +43,7 @@ gsap.from(descRef.current,{
                         <button className='btn-cv'>Download CV</button>
                         <button className='btn-contact' onClick={handleContact}>Contact Info</button>
                     </div>
-                    <div className='social-icons'><a target='_blank' href='https://www.linkedin.com/in/ritik-prajapati-666a8823a/'><img src={linkedin} alt="icon" /></a><a href='https://www.github.com' target='_blank'><img src={github} alt="icon" /></a></div>
+                    <div className='social-icons'><a target='_blank' href='https://www.linkedin.com/in/ritik-prajapati-666a8823a/'><img src={linkedin} alt="icon" /></a><a href='https://www.github.com/ritikbuilds' target='_blank'><img src={github} alt="icon" /></a></div>
 
                     </div>
                 </section>
