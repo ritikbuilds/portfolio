@@ -1,0 +1,134 @@
+.about-me-con {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  > p {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  > h1 {
+    font-size: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .about-me {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .about-me-img {
+      width: 40rem;
+      height: 30rem;
+      border-radius: 2rem;
+      background:url("/assets/aboutme.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .about-me-desc {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      padding: 4rem;
+      img {
+        width: 5rem;
+      }
+
+      .about-me-desc-top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+          width: 40%;
+          border: 1px solid rgb(154, 151, 151);
+          border-radius: 2rem;
+          padding: 2rem;
+          text-align: center;
+          p {
+            font-size: 2rem;
+          }
+          h1 {
+            font-size: 3rem;
+          }
+          h2 {
+            font-size: 2.5rem;
+          }
+        }
+      }
+
+      .about-me-desc-bottom {
+        p {
+          font-size: 1.7rem;
+          margin-top: 3rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:600px){
+  .about-me-con {
+    margin-top: 5rem;
+    padding-top: 10rem;
+
+    > p {
+      font-size: 2rem;
+    }
+    > h1 {
+      font-size: 5rem;
+    }
+  
+    .about-me {
+      flex-direction: column;
+      .about-me-img {
+        width: 90%;
+      }
+  
+      .about-me-desc {
+        flex-direction: column;
+        img {
+          width: 5rem;
+        }
+  
+        .about-me-desc-top {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+  
+          div {
+            width: 100%;
+            margin: 2rem;
+  
+            p {
+              font-size: 2rem;
+            }
+            h1 {
+              font-size: 3rem;
+            }
+            h2 {
+              font-size: 2.5rem;
+            }
+          }
+        }
+  
+        .about-me-desc-bottom {
+          p {
+            font-size: 1.7rem;
+            margin-top: 3rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  
+}

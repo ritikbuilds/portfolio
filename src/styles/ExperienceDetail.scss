@@ -1,0 +1,23 @@
+.experience-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem 4rem;
+    img{
+        width: 5rem;
+        pointer-events: none;
+    }
+
+}
+
+@media (max-width:600px){
+    .experience-detail{
+        margin: 0.5rem;
+        padding: 1rem 2rem;
+        img{
+            width: 3rem;
+        }
+    
+    }
+}

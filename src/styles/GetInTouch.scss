@@ -1,0 +1,96 @@
+.get-in-touch {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  > p {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  > h1 {
+    font-size: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  img {
+    width: 5rem;
+  }
+
+  .contact-details-con {
+    width: fit-content;
+    padding: 2rem;
+    display: flex;
+    border: 1px solid rgb(168, 159, 159);
+    border-radius: 2rem;
+    gap: 4rem;
+    margin-top: 4rem;
+
+    a {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      color: black;
+
+      h2 {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 0.2rem;
+          background: #7a7878;
+          transform: scale(0);
+        }
+      }
+
+      &:hover h2::after {
+        transform: scale(1);
+        transition: 0.3s transform ease;
+      }
+    }
+  }
+  .footer-text {
+    position: absolute;
+    bottom: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .get-in-touch {
+    > p {
+      font-size: 2rem;
+    }
+    > h1 {
+      font-size: 4rem;
+    }
+    img {
+      width: 3rem;
+    }
+
+    .contact-details-con {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      gap: 4rem;
+      margin-top: 4rem;
+      a {
+        flex-direction: column;
+        h2 {
+          &::after {
+            height: 0.1rem;
+          }
+        }
+      }
+    }
+  }
+}

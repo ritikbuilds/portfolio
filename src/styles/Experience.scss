@@ -1,0 +1,51 @@
+.experience{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .experience-content{
+        margin: 5rem 0;
+        border: 1px solid rgb(166, 162, 162);
+        padding: 2rem;
+        border-radius: 4rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    > p {
+      font-size:2.5rem;
+      text-align: center;
+    }
+    > h1 {
+      font-size: 6rem;
+      text-align: center;
+    }
+
+}
+
+@media (max-width:600px){
+
+  .experience{
+    .experience-content{
+        margin: 2rem 0;
+        border: 1px solid rgb(166, 162, 162);
+        padding: 1rem;
+        border-radius: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    > p {
+      font-size: 2rem;
+    }
+    > h1 {
+      font-size: 5rem;
+    }
+
+}
+
+}

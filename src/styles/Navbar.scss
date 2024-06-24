@@ -1,0 +1,127 @@
+.navbar{
+
+    .btn{
+        border: none;
+        outline: none;
+        padding: 0;
+        margin: 0;
+        background: none;
+        width: 5rem;
+        cursor: pointer;
+        display: none;
+    }
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    backdrop-filter: blur(2rem);
+    background: rgba(255, 255, 255, 0.397);
+    
+    .nav-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem;
+        .logo{
+            font-family: "Playwrite US Trad", cursive;
+            font-size: 3rem;
+            cursor: pointer;
+        }
+
+        .menu{
+            list-style: none;
+            display: flex;
+            gap: 3rem;
+
+            .menu-item{
+                position: relative;
+                font-size: 2rem;
+                cursor: pointer;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 0.2rem;
+                    background: #7a7878;
+                    transform: scale(0);
+                }
+                &:hover::after{
+                    transform: scale(1);
+                    transition: 0.3s transform ease;
+                }
+            }
+
+        }
+
+    }
+}
+
+@media (max-width:600px){
+
+    .navbar{
+        .btn{
+            display: initial;
+        }
+
+        .menu-icon{
+            rotate: 0;
+            transition: 0.3s all ease;
+        }
+
+        .menu-icon.clicked{
+            rotate:405deg;
+            transition: 0.3s all ease;
+        }
+
+        .nav-content{
+            
+
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            .logo{
+                font-size: 3rem;
+            }
+
+    
+            .menu{
+                position: absolute;
+                right: -40%;
+                top: 100%;
+                height: 100vh;
+
+                padding: 2rem;
+                background: rgba(255, 255, 255, 0.347);
+                backdrop-filter: blur(2rem);
+                flex-direction: column;
+                transition: 0.3s all ease;
+
+            
+    
+                .menu-item{
+                    position: relative;
+                    font-size: 2rem;
+                    cursor: pointer;
+                    &::after{
+                        height: 0.1rem;
+                    }
+                }
+    
+            }
+
+            .menu.closeMenu{
+                right: 0;
+                transition: 0.3s all ease;
+            }
+    
+    
+        }
+    }
+}
