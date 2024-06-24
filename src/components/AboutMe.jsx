@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/AboutMe.scss'
-import experience from "/assets/experience.png"
-import education from "/assets/education.png"
+import experience from "/assets/experience.webp"
+import education from "/assets/education.webp"
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import ScrollTrigger from 'gsap/ScrollTrigger'

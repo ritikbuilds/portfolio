@@ -2,8 +2,8 @@ import React, { useRef } from 'react'
 import '../styles/Hero.scss'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import linkedin from "/assets/linkedin.png"
-import github from "/assets/github.png"
+import linkedin from "/assets/linkedin.webp"
+import github from "/assets/github.webp"
 
 function Hero() {
 

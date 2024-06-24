@@ -1,12 +1,12 @@
 import React from 'react'
-import checkMark from "/assets/checkmark.png"
+
 import "../styles/ExperienceDetail.scss"
 
-function ExperienceDetail({detail}) {
+function ExperienceDetail({name,url}) {
   return (
     <div className='experience-detail'>
-        <img src={checkMark} alt="icon" />
-        <h2>{detail}</h2>
+        <img src={url} alt="icon" />
+        <h2>{name}</h2>
     </div>
   )
 }

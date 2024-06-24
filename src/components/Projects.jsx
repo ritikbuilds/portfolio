@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/Projects.scss'
 import SingleProject from './SingleProject'
-import education from "/assets/education.png"
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
@@ -22,7 +21,7 @@ const projectsArr = [
     {
     img:"assets/firstinmath.png",
     title:"FirstInMath(Responsive)",
-    gitLink:"",
+    gitLink:"https://github.com/ritikbuilds/travel-world",
     liveLink:"https://appdev-firstinmath.netlify.app/",
     },
 

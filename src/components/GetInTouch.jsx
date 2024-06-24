@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/GetInTouch.scss"
-import email from "/assets/email.png"
-import linkedin from "/assets/linkedin.png"
+import email from "/assets/email.webp"
+import linkedin from "/assets/linkedin.webp"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
