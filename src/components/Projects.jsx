@@ -11,21 +11,21 @@ const projectsArr = [
     title: "Significo",
     technologies: ["HTML", "CSS", "JAVASCRIPT"],
     desc: "significo is an animated desktop only website created using following technologies ",
-    liveLink: "https://appdev-significo.netlify.app/",
+    liveLink: "https://ritikbuilds-significo.netlify.app/",
   },
   {
     img: "assets/rejouice.png",
     title: "Rejouice",
     desc: "Rejouice is an animated responsive website created using following technologies",
     technologies: ["HTML", "CSS", "JAVASCRIPT"],
-    liveLink: "https://appdev-rejouice.netlify.app/",
+    liveLink: "https://ritikbuilds-rejouice.netlify.app/",
   },
   {
     img: "assets/firstinmath.png",
     title: "FirstInMath",
     desc: "First in math is an responsive edutech website created using following technologies.",
     technologies: ["HTML", "CSS", "JAVASCRIPT"],
-    liveLink: "https://appdev-firstinmath.netlify.app/",
+    liveLink: "https://ritikbuilds-firstinmath.netlify.app/",
   },
 ];
 
