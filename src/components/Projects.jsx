@@ -27,6 +27,13 @@ const projectsArr = [
     technologies: ["HTML", "CSS", "JAVASCRIPT"],
     liveLink: "https://ritikbuilds-firstinmath.netlify.app/",
   },
+  {
+    img: "assets/sweat-lab.png",
+    title: "Sweat Lab",
+    desc: "Sweat Lab is an online exercise learning responsive website built using following technologies.",
+    technologies: ["REACT","TAILWIND CSS","RAPID API"],
+    liveLink: "https://ritikbuilds-firstinmath.netlify.app/",
+  },
 ];
 
 function Projects() {
