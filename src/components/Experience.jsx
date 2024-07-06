@@ -16,6 +16,8 @@ const experienceArr = [
   { name: "TAILWIND CSS", url: "/assets/tailwind.webp" },
   { name: "GSAP", url: "/assets/gsap.webp" },
   { name: "FRAMER MOTION", url: "/assets/motion.webp" },
+  { name: "REDUX", url: "/assets/redux.webp" },
+  { name: "BOOTSTRAP", url: "/assets/bootstrap.webp" },
 
 ];
 
