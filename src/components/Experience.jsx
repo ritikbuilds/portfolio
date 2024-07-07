@@ -10,14 +10,14 @@ const experienceArr = [
   { name: "CSS", url: "/assets/css.webp" },
   { name: "JAVASCRIPT", url: "/assets/js.webp" },
   { name: "REACT", url: "/assets/react.webp" },
-  { name: "GIT", url: "/assets/git.webp" },
-  { name: "GITHUB", url: "/assets/github.webp" },
+  { name: "REDUX", url: "/assets/redux.webp" },
   { name: "SASS", url: "/assets/sass.webp" },
   { name: "TAILWIND CSS", url: "/assets/tailwind.webp" },
+  { name: "BOOTSTRAP", url: "/assets/bootstrap.webp" },
+  { name: "GIT", url: "/assets/git.webp" },
+  { name: "GITHUB", url: "/assets/github.webp" },
   { name: "GSAP", url: "/assets/gsap.webp" },
   { name: "FRAMER MOTION", url: "/assets/motion.webp" },
-  { name: "REDUX", url: "/assets/redux.webp" },
-  { name: "BOOTSTRAP", url: "/assets/bootstrap.webp" },
 
 ];
 

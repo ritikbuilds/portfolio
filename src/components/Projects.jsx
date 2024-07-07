@@ -37,22 +37,29 @@ const projectsArr = [
   {
     img: "assets/daily-digest.webp",
     title: "Daily Digest",
-    desc: "Daily Digest is a news webiste which provides user with the latest news developed using following technologies.",
-    technologies: ["REACT","TAILWIND CSS","newsdata API"],
+    desc: "Daily Digest is a news website which provides user with the latest news developed using following technologies.",
+    technologies: ["REACT","TAILWIND CSS","NEWSDATA API"],
     liveLink: "https://ritikbuilds-dailydigest.netlify.app/",
   },
   {
     img: "assets/retro.webp",
     title: "Retro",
-    desc: "Retro is a retro theme based  webiste developed using following technologies.",
+    desc: "Retro is a retro theme based  website developed using following technologies.",
     technologies: ["HTML","CSS","JAVASCRIPT"],
+    liveLink: "https://ritikbuilds-retro.netlify.app/",
+  },
+  {
+    img: "assets/portfolio.webp",
+    title: "Portfolio",
+    desc: "Portfolio website to showcase projects and skills website developed using following technologies.",
+    technologies: ["REACT","SCSS"],
     liveLink: "https://ritikbuilds-retro.netlify.app/",
   },
 ];
 
 function Projects() {
   gsap.registerPlugin(ScrollTrigger);
-
+  
   useGSAP(() => {
     gsap.from(".animate-p,.animate-h", {
       opacity: 0,
