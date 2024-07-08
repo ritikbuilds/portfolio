@@ -53,7 +53,7 @@ const projectsArr = [
     title: "Portfolio",
     desc: "Portfolio website to showcase projects and skills website developed using following technologies.",
     technologies: ["REACT","SCSS"],
-    liveLink: "https://ritikbuilds-retro.netlify.app/",
+    liveLink: "#",
   },
 ];
 
