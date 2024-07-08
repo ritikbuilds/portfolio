@@ -7,7 +7,7 @@ function SingleProject({title,img,liveLink,desc,technologies}) {
     <div className='single-project'>
         <div className="single-project-content">
           <a href={liveLink} target='_blank' className='img-section'>
-          <img src={img} alt="image" />
+          <img src={img} alt="image"/>
           </a>
           <section className='desc-section'>
           <div className='desc-top'>
