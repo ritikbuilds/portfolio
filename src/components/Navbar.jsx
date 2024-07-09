@@ -5,6 +5,8 @@ import { RiMenu4Line } from "react-icons/ri";
 import gsap from "gsap";
 
 function Navbar() {
+  
+  const [close, setClose] = useState(false);
 
   function handleClick(e){
     if(e.target.classList.contains('menu-item')){
@@ -12,7 +14,9 @@ function Navbar() {
     }
   }
 
-  const [close, setClose] = useState(false);
+  function handleLogoClick(){
+    document.getElementById("hero").scrollIntoView({behavior:"smooth"})
+  }
 
   function closeMenu() {
     setClose(!close);
@@ -28,7 +32,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-content nav-container">
-        <h1 className="logo">Ritik</h1>
+        <h1 className="logo" onClick={handleLogoClick}>Ritik</h1>
         <ul className={`menu ${close ? "closeMenu" : ""}`} onClick={handleClick}>
           {["About", "Experience", "Projects", "Contact"].map((item, index) => (
             <li

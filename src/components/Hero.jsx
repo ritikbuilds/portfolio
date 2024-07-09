@@ -31,7 +31,7 @@ gsap.from(descRef.current,{
 )
   })
   return (
-    <section className='hero'>
+    <section className='hero' id='hero'>
         <div className='hero-content'>
                 <section className="img-section" ref={imgRef}></section>
                 <section className="desc-section" ref={descRef}>
