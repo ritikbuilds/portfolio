@@ -40,7 +40,7 @@ gsap.from(descRef.current,{
                     <h1>Ritik Prajapati</h1>
                     <h2>Frontend Developer</h2>
                     <div>
-                        <a download={"Ritik Prajapati Resume"} href='/assets/Ritk_Prajapati_Resume.pdf' className='btn-cv'>Download CV</a>
+                        <a download={"Ritik Prajapati Resume"} href='/assets/Ritik_Prajapati_Resume.pdf' className='btn-cv'>Download CV</a>
                         <button className='btn-contact' onClick={handleContact}>Contact Info</button>
                     </div>
                     <div className='social-icons'><a target='_blank' href='https://www.linkedin.com/in/ritik-prajapati-666a8823a/'><img src={linkedin} alt="icon" /></a><a href='https://www.github.com/ritikbuilds' target='_blank'><img src={github} alt="icon" /></a></div>
