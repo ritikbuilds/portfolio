@@ -11,6 +11,7 @@ function Navbar() {
   function handleClick(e){
     if(e.target.classList.contains('menu-item')){
      document.getElementById(e.target.textContent.toLowerCase()).scrollIntoView({behavior:"smooth"})
+     closeMenu()
     }
   }
 
