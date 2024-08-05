@@ -9,7 +9,9 @@ const experienceArr = [
   { name: "HTML", url: "/assets/html.webp" },
   { name: "CSS", url: "/assets/css.webp" },
   { name: "JAVASCRIPT", url: "/assets/js.webp" },
+  { name: "TYPESCRIPT", url: "/assets/typescript.webp" },
   { name: "REACT", url: "/assets/react.webp" },
+  { name: "REACT NATIVE", url: "/assets/react-native.webp" },
   { name: "REDUX", url: "/assets/redux.webp" },
   { name: "SASS", url: "/assets/sass.webp" },
   { name: "TAILWIND CSS", url: "/assets/tailwind.webp" },
@@ -18,7 +20,6 @@ const experienceArr = [
   { name: "GITHUB", url: "/assets/github.webp" },
   { name: "GSAP", url: "/assets/gsap.webp" },
   { name: "FRAMER MOTION", url: "/assets/motion.webp" },
-
 ];
 
 function Experience() {
@@ -56,8 +57,8 @@ function Experience() {
       <p className="explore">Explore My</p>
       <h1 className="explore">SKILLS</h1>
       <section className="experience-content">
-        {experienceArr.map(({name,url}, index) => (
-          <ExperienceDetail name={name} url = {url} key={index} />
+        {experienceArr.map(({ name, url }, index) => (
+          <ExperienceDetail name={name} url={url} key={index} />
         ))}
       </section>
     </section>
