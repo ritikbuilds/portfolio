@@ -7,30 +7,23 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const projectsArr = [
   {
-    img: "assets/ecommerce.webp",
-    title: "E-Commerce App",
-    desc: "This is an e-commerce website inspired by Amazon, integrating various functionalities typical of e-commerce applications. Built on React, Tailwind CSS, and Redux, these technologies offer streamlined development, enhanced UI flexibility through utility-first styling, and efficient state management for a seamless user experience.",
-    technologies: ["REACT","TAILWIND CSS","REDUX"],
-    liveLink: "https://ritikbuilds-ecommerce.netlify.app/",
-  },
-  {
     img: "assets/daily-digest.webp",
     title: "Daily Digest",
     desc: "Daily Digest is a news website providing users with the latest news. It leverages the following technologies, including the NewData API, to deliver timely updates and a seamless user experience.",
-    technologies: ["REACT","TAILWIND CSS","NEWSDATA API"],
+    technologies: ["REACT", "TAILWIND CSS", "NEWSDATA API"],
     liveLink: "https://ritikbuilds-dailydigest.netlify.app/",
   },
   {
     img: "assets/portfolio.webp",
     title: "Portfolio",
     desc: "Portfolio Website is diligently designed to showcase projects and skills, leveraging React and Sass to enhance maintainability, scalability, and design consistency.",
-    technologies: ["REACT","SCSS"],
+    technologies: ["REACT", "SCSS"],
     liveLink: "",
   },
   {
     img: "assets/significo.png",
     title: "Significo",
-    technologies: ["HTML", "CSS", "JAVASCRIPT","GSAP"],
+    technologies: ["HTML", "CSS", "JAVASCRIPT", "GSAP"],
     desc: "Significo is a dynamic, animated, and responsive website. It showcases advanced animation techniques and responsive design principles to deliver an engaging user experience, using the following technologies.",
     liveLink: "https://ritikbuilds-significo.netlify.app/",
   },
@@ -38,28 +31,28 @@ const projectsArr = [
     img: "assets/firstinmath.png",
     title: "FirstInMath",
     desc: "First in Math is a modern edutech website's frontend, featuring captivating animations aimed at enhancing student engagement and learning experiences. It utilizes the following technologies.",
-    technologies: ["HTML", "CSS", "JAVASCRIPT","GSAP"],
+    technologies: ["HTML", "CSS", "JAVASCRIPT", "GSAP"],
     liveLink: "https://ritikbuilds-firstinmath.netlify.app/",
   },
   {
     img: "assets/rejouice.png",
     title: "Rejouice",
     desc: "Rejouice is an animated website crafted to showcase sophisticated animations and responsive design. It utilizes following technologies to deliver a visually engaging and interactive user experience.",
-    technologies: ["HTML", "CSS", "JAVASCRIPT","GSAP"],
+    technologies: ["HTML", "CSS", "JAVASCRIPT", "GSAP"],
     liveLink: "https://ritikbuilds-rejouice.netlify.app/",
   },
   {
     img: "assets/retro.webp",
     title: "Retro",
     desc: "Retro is a complex design-based website with a retro theme, featuring minimal animations to enhance its nostalgic and vintage appeal, utilizing the following technologies.",
-    technologies: ["HTML","CSS","JAVASCRIPT"],
+    technologies: ["HTML", "CSS", "JAVASCRIPT"],
     liveLink: "https://ritikbuilds-retro.netlify.app/",
   },
 ];
 
 function Projects() {
   gsap.registerPlugin(ScrollTrigger);
-  
+
   useGSAP(() => {
     gsap.from(".animate-p,.animate-h", {
       opacity: 0,
