@@ -77,7 +77,7 @@ function Projects() {
         end: "bottom bottom",
       },
     });
-  });
+  }, []);
 
   return (
     <section className="projects" id="projects">

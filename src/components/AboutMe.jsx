@@ -33,7 +33,7 @@ function AboutMe() {
         end: "bottom bottom",
       },
     });
-  });
+  }, []);
 
   return (
     <section className="about-me-con container" id="about">
@@ -48,7 +48,7 @@ function AboutMe() {
               <img src={experience} alt="icon" />
               <h2>Experience</h2>
               <p>Fresher</p>
-              <p>Frontend Development</p>
+              <p>Full Stack Development</p>
             </div>
             <div>
               <img src={education} alt="icon" />
@@ -59,14 +59,18 @@ function AboutMe() {
           </div>
           <section className="about-me-desc-bottom">
             <p>
-              Ritik Prajapati is an enthusiastic frontend developer specializing
-              in creating interactive and responsive websites and mobile
-              applications using React.js and React Native. With a strong
-              commitment to continuous learning and a passion for web and app
-              development, Ritik is eager to apply his skills in a dynamic
-              environment. Driven by a desire to innovate and improve his craft,
-              he aims to contribute to cutting-edge projects and deliver
-              exceptional user experiences.
+              Ritik Prajapati is an enthusiastic full-stack developer
+              specializing in building interactive and responsive web and mobile
+              applications using modern technologies. Proficient in React.js and
+              React Native for frontend development, he also has expertise in
+              Node.js, Express.js, and MongoDB for developing scalable and
+              efficient backend systems. With a strong commitment to continuous
+              learning and a passion for full-stack development, he is eager to
+              apply his skills in a dynamic environment. Driven by a desire to
+              innovate and improve his craft, he aims to contribute to
+              cutting-edge projects, ensuring seamless integration between
+              frontend and backend while delivering exceptional user
+              experiences.
             </p>
           </section>
         </section>

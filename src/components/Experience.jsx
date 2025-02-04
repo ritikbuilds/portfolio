@@ -6,18 +6,19 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const experienceArr = [
-  { name: "HTML", url: "/assets/html.webp" },
-  { name: "CSS", url: "/assets/css.webp" },
   { name: "JAVASCRIPT", url: "/assets/js.webp" },
   { name: "TYPESCRIPT", url: "/assets/typescript.webp" },
   { name: "REACT", url: "/assets/react.webp" },
   { name: "REACT NATIVE", url: "/assets/react-native.webp" },
+  { name: "NODEJS", url: "/assets/nodejs.png" },
+  { name: "EXPRESS", url: "/assets/express.png" },
+  { name: "MONGODB", url: "/assets/mongodb.png" },
   { name: "REDUX", url: "/assets/redux.webp" },
-  { name: "SASS", url: "/assets/sass.webp" },
-  { name: "TAILWIND CSS", url: "/assets/tailwind.webp" },
-  { name: "BOOTSTRAP", url: "/assets/bootstrap.webp" },
   { name: "GIT", url: "/assets/git.webp" },
   { name: "GITHUB", url: "/assets/github.webp" },
+  { name: "TAILWIND CSS", url: "/assets/tailwind.webp" },
+  { name: "SASS", url: "/assets/sass.webp" },
+  { name: "BOOTSTRAP", url: "/assets/bootstrap.webp" },
   { name: "GSAP", url: "/assets/gsap.webp" },
   { name: "FRAMER MOTION", url: "/assets/motion.webp" },
 ];
@@ -50,7 +51,7 @@ function Experience() {
         end: "bottom bottom",
       },
     });
-  });
+  }, []);
 
   return (
     <section className="experience" id="experience">
