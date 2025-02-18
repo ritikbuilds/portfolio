@@ -7,18 +7,18 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const projectsArr = [
   {
+    img: "assets/worknest.webp",
+    title: "Worknest",
+    desc: "An advanced project management system with role-based access control, real-time notifications, and seamless team collaboration. Invite members, assign roles, and manage tasks efficiently with structured teams and organization-specific permissions.",
+    technologies: ["REACT", "TAILWIND CSS", "NODEJS", "EXPRESS", "MONGODB"],
+    liveLink: "https://ritikbuilds-worknest.netlify.app/",
+  },
+  {
     img: "assets/daily-digest.webp",
     title: "Daily Digest",
     desc: "Daily Digest is a news website providing users with the latest news. It leverages the following technologies, including the NewData API, to deliver timely updates and a seamless user experience.",
     technologies: ["REACT", "TAILWIND CSS", "NEWSDATA API"],
     liveLink: "https://ritikbuilds-dailydigest.netlify.app/",
-  },
-  {
-    img: "assets/portfolio.webp",
-    title: "Portfolio",
-    desc: "Portfolio Website is diligently designed to showcase projects and skills, leveraging React and Sass to enhance maintainability, scalability, and design consistency.",
-    technologies: ["REACT", "SCSS"],
-    liveLink: "",
   },
   {
     img: "assets/significo.png",
